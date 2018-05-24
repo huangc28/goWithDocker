@@ -1,1 +1,7 @@
+# dependencies
 vendor
+
+# "fresh" live reload logs && executable
+src/tmp/*
+gin-bin
+

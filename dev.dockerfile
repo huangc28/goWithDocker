@@ -5,7 +5,7 @@ FROM golang:1.10.2-alpine
 
 # install deps management && live reload
 RUN apk add --update \
-  && apk add --no-cache bash git supervisor \
+  && apk add --no-cache bash git \
   && go get -u github.com/golang/dep/cmd/dep \
   && go get -u github.com/pilu/fresh
 
@@ -19,4 +19,6 @@ ADD entry-point.sh /root/entry-point.sh
 RUN ["chmod", "+x", "/root/entry-point.sh"]
 RUN dep ensure --vendor-only
 
-ENTRYPOINT ["/root/entry-point.sh"]
+WORKDIR /go/src/app/src
+
+CMD ["fresh"]
