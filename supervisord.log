@@ -1,0 +1,59 @@
+2018-05-24 06:29:11,233 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-05-24 06:29:11,236 INFO daemonizing the supervisord process
+2018-05-24 06:29:46,784 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-05-24 06:29:46,787 INFO daemonizing the supervisord process
+2018-05-24 06:29:53,560 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-05-24 06:29:53,563 INFO daemonizing the supervisord process
+2018-05-24 06:31:17,215 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-05-24 06:31:17,221 INFO supervisord started with pid 7
+2018-05-24 06:31:18,223 INFO spawned: 'cloud-sql-proxy' with pid 10
+2018-05-24 06:31:19,235 INFO success: cloud-sql-proxy entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-24 06:49:48,555 WARN received SIGINT indicating exit request
+2018-05-24 06:49:48,557 INFO waiting for cloud-sql-proxy to die
+2018-05-24 06:49:48,559 INFO stopped: cloud-sql-proxy (exit status 1)
+2018-05-24 06:49:51,911 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-05-24 06:49:51,916 INFO supervisord started with pid 7
+2018-05-24 06:49:52,922 INFO spawned: 'cloud-sql-proxy' with pid 10
+2018-05-24 06:49:53,933 INFO success: cloud-sql-proxy entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-24 06:49:54,747 WARN received SIGINT indicating exit request
+2018-05-24 06:49:54,748 INFO waiting for cloud-sql-proxy to die
+2018-05-24 06:49:54,750 INFO stopped: cloud-sql-proxy (exit status 1)
+2018-05-24 06:50:37,658 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-05-24 06:50:37,662 INFO supervisord started with pid 6
+2018-05-24 06:50:38,670 INFO spawned: 'gin-live-reload' with pid 9
+2018-05-24 06:50:39,681 INFO success: gin-live-reload entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-24 06:50:53,479 WARN received SIGINT indicating exit request
+2018-05-24 06:50:53,480 INFO waiting for gin-live-reload to die
+2018-05-24 06:50:53,482 INFO stopped: gin-live-reload (exit status 1)
+2018-05-24 06:51:41,475 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-05-24 06:51:41,479 INFO daemonizing the supervisord process
+2018-05-24 06:51:41,482 INFO supervisord started with pid 10
+2018-05-24 06:51:42,486 INFO spawned: 'gin-live-reload' with pid 125
+2018-05-24 06:51:43,535 INFO success: gin-live-reload entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-24 07:05:48,626 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-05-24 07:05:48,630 INFO daemonizing the supervisord process
+2018-05-24 07:05:48,633 INFO supervisord started with pid 9
+2018-05-24 07:05:49,637 INFO spawned: 'gin-live-reload' with pid 104
+2018-05-24 07:05:50,664 INFO success: gin-live-reload entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-24 07:14:06,872 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-05-24 07:14:06,875 INFO daemonizing the supervisord process
+2018-05-24 07:14:06,878 INFO supervisord started with pid 10
+2018-05-24 07:14:07,881 INFO spawned: 'gin-live-reload' with pid 106
+2018-05-24 07:14:08,946 INFO success: gin-live-reload entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-24 07:15:38,064 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-05-24 07:15:38,068 INFO daemonizing the supervisord process
+2018-05-24 07:15:38,073 INFO supervisord started with pid 10
+2018-05-24 07:15:39,077 INFO spawned: 'gin-live-reload' with pid 108
+2018-05-24 07:15:40,122 INFO success: gin-live-reload entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-24 07:19:05,900 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-05-24 07:19:05,903 INFO daemonizing the supervisord process
+2018-05-24 07:19:05,906 INFO supervisord started with pid 447
+2018-05-24 07:19:06,909 INFO spawned: 'gin-live-reload' with pid 448
+2018-05-24 07:19:06,918 INFO exited: gin-live-reload (exit status 1; not expected)
+2018-05-24 07:19:07,927 INFO spawned: 'gin-live-reload' with pid 454
+2018-05-24 07:19:07,938 INFO exited: gin-live-reload (exit status 1; not expected)
+2018-05-24 07:19:09,945 INFO spawned: 'gin-live-reload' with pid 461
+2018-05-24 07:19:09,955 INFO exited: gin-live-reload (exit status 1; not expected)
+2018-05-24 07:19:12,966 INFO spawned: 'gin-live-reload' with pid 467
+2018-05-24 07:19:12,976 INFO exited: gin-live-reload (exit status 1; not expected)
+2018-05-24 07:19:13,982 INFO gave up: gin-live-reload entered FATAL state, too many start retries too quickly
